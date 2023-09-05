@@ -9,9 +9,6 @@ from PIL import Image
 import requests
 import os
 from io import BytesIO
-import openai
-
-openai.api_key="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"
 
 # Resize Image function
 def resize_image(url):
